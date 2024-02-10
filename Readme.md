@@ -54,3 +54,12 @@ To upload multiple files to S3, send a POST request to /multiple endpoint with t
 ```
 curl -X POST -F "file=@<path_to_file_1>" -F "file=@<path_to_file_2>" http://localhost:8000/multiple
 ```
+## Single file uploading Using Postman
+
+To upload a single file to S3, send a POST request to /upload endpoint with the file attached. Example using postman:
+![Screenshot 2024-02-10 at 3.46.21 PM.png](assets%2FScreenshot%202024-02-10%20at%203.46.21%20PM.png)
+
+## multiple file uploading Using Postman
+
+To upload a multiple file to S3, send a POST request to /multiple endpoint with the file attached. Example using postman:
+![Screenshot 2024-02-10 at 3.46.59 PM.png](assets%2FScreenshot%202024-02-10%20at%203.46.59%20PM.png)
