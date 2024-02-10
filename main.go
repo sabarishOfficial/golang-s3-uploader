@@ -6,11 +6,11 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/s3"
+	"golang-s3-uploader/initFunction"
 	"io/ioutil"
 	"log"
 	"net/http"
 	"os"
-	"s3fileupload/initFunction"
 )
 
 func S3SingleFileUploadFunction(w http.ResponseWriter, r *http.Request, ses *session.Session) {
